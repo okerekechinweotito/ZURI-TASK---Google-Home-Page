@@ -1,0 +1,96 @@
+*:hover {
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: auto;
+}
+.navbar--text {
+  color: black;
+  text-decoration: none;
+}
+.navbar--text:hover {
+  text-decoration: underline;
+}
+.navbar img {
+  height: 20px;
+}
+.navbar--button {
+  background-color: blue;
+  border-radius: 0.5em;
+  border: none;
+  color: #f7eeee;
+  font-weight: bold;
+  height: 2em;
+  text-align: center;
+}
+.navbar--button:hover {
+  background-color: blueviolet;
+}
+main {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 3em;
+}
+.main--googleImage {
+  width: 20em;
+  height: 5em;
+  background-image: url(./google_image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+.main--input {
+  width: 80%;
+  padding: 1em;
+  border-radius: 30px;
+  border: 1px solid grey;
+  cursor: text;
+  outline: none;
+}
+.main__buttonContainer {
+  margin-top: 3em;
+}
+.main__buttonContainer--button {
+  padding: 1em;
+  border: none;
+  border-radius: 0.5em;
+}
+.main__buttonContainer--button:hover {
+  background-color: blue;
+  color: white;
+}
+.footer {
+  margin-top: 3em;
+  text-align: center;
+}
+pre a {
+  color: blue;
+}
+@media screen and (min-width: 756px) {
+  .main--input {
+    width: 40em;
+  }
+  .navbar {
+    justify-content: flex-end;
+  }
+  .navbar--text {
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  img {
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .navbar--button {
+    margin-left: 1em;
+    margin-right: 3em;
+    margin-top: 0.5em;
+    width: 7em;
+    height: 3em;
+  }
+}
